@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC942F441BAAA6C200212F48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC942F431BAAA6C200212F48 /* main.m */; };
+		DC942F471BAAA6C200212F48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC942F461BAAA6C200212F48 /* AppDelegate.m */; };
+		DC942F4A1BAAA6C200212F48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC942F491BAAA6C200212F48 /* ViewController.m */; };
+		DC942F4D1BAAA6C200212F48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC942F4B1BAAA6C200212F48 /* Main.storyboard */; };
+		DC942F4F1BAAA6C200212F48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC942F4E1BAAA6C200212F48 /* Assets.xcassets */; };
+		DC942F521BAAA6C200212F48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC942F501BAAA6C200212F48 /* LaunchScreen.storyboard */; };
+		DC942F5D1BAAA6C200212F48 /* CustomDragTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC942F5C1BAAA6C200212F48 /* CustomDragTests.m */; };
+		DC942F681BAAA6C200212F48 /* CustomDragUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC942F671BAAA6C200212F48 /* CustomDragUITests.m */; };
+		DC942F771BAAA73300212F48 /* CustomDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC942F761BAAA73300212F48 /* CustomDragView.m */; settings = {ASSET_TAGS = (); }; };
+		DC942F7A1BAAA74C00212F48 /* CustomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DC942F791BAAA74C00212F48 /* CustomItem.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC942F591BAAA6C200212F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC942F371BAAA6C200212F48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC942F3E1BAAA6C200212F48;
+			remoteInfo = CustomDrag;
+		};
+		DC942F641BAAA6C200212F48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC942F371BAAA6C200212F48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC942F3E1BAAA6C200212F48;
+			remoteInfo = CustomDrag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC942F3F1BAAA6C200212F48 /* CustomDrag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDrag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC942F431BAAA6C200212F48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC942F451BAAA6C200212F48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC942F461BAAA6C200212F48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC942F481BAAA6C200212F48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC942F491BAAA6C200212F48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC942F4C1BAAA6C200212F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC942F4E1BAAA6C200212F48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC942F511BAAA6C200212F48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC942F531BAAA6C200212F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC942F581BAAA6C200212F48 /* CustomDragTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDragTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC942F5C1BAAA6C200212F48 /* CustomDragTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomDragTests.m; sourceTree = "<group>"; };
+		DC942F5E1BAAA6C200212F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC942F631BAAA6C200212F48 /* CustomDragUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDragUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC942F671BAAA6C200212F48 /* CustomDragUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomDragUITests.m; sourceTree = "<group>"; };
+		DC942F691BAAA6C200212F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC942F751BAAA73300212F48 /* CustomDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDragView.h; sourceTree = "<group>"; };
+		DC942F761BAAA73300212F48 /* CustomDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDragView.m; sourceTree = "<group>"; };
+		DC942F781BAAA74C00212F48 /* CustomItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomItem.h; sourceTree = "<group>"; };
+		DC942F791BAAA74C00212F48 /* CustomItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC942F3C1BAAA6C200212F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC942F551BAAA6C200212F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC942F601BAAA6C200212F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC942F361BAAA6C200212F48 = {
+			isa = PBXGroup;
+			children = (
+				DC942F411BAAA6C200212F48 /* CustomDrag */,
+				DC942F5B1BAAA6C200212F48 /* CustomDragTests */,
+				DC942F661BAAA6C200212F48 /* CustomDragUITests */,
+				DC942F401BAAA6C200212F48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC942F401BAAA6C200212F48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC942F3F1BAAA6C200212F48 /* CustomDrag.app */,
+				DC942F581BAAA6C200212F48 /* CustomDragTests.xctest */,
+				DC942F631BAAA6C200212F48 /* CustomDragUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC942F411BAAA6C200212F48 /* CustomDrag */ = {
+			isa = PBXGroup;
+			children = (
+				DC942F451BAAA6C200212F48 /* AppDelegate.h */,
+				DC942F461BAAA6C200212F48 /* AppDelegate.m */,
+				DC942F481BAAA6C200212F48 /* ViewController.h */,
+				DC942F491BAAA6C200212F48 /* ViewController.m */,
+				DC942F751BAAA73300212F48 /* CustomDragView.h */,
+				DC942F761BAAA73300212F48 /* CustomDragView.m */,
+				DC942F781BAAA74C00212F48 /* CustomItem.h */,
+				DC942F791BAAA74C00212F48 /* CustomItem.m */,
+				DC942F4B1BAAA6C200212F48 /* Main.storyboard */,
+				DC942F4E1BAAA6C200212F48 /* Assets.xcassets */,
+				DC942F501BAAA6C200212F48 /* LaunchScreen.storyboard */,
+				DC942F531BAAA6C200212F48 /* Info.plist */,
+				DC942F421BAAA6C200212F48 /* Supporting Files */,
+			);
+			path = CustomDrag;
+			sourceTree = "<group>";
+		};
+		DC942F421BAAA6C200212F48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC942F431BAAA6C200212F48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC942F5B1BAAA6C200212F48 /* CustomDragTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC942F5C1BAAA6C200212F48 /* CustomDragTests.m */,
+				DC942F5E1BAAA6C200212F48 /* Info.plist */,
+			);
+			path = CustomDragTests;
+			sourceTree = "<group>";
+		};
+		DC942F661BAAA6C200212F48 /* CustomDragUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC942F671BAAA6C200212F48 /* CustomDragUITests.m */,
+				DC942F691BAAA6C200212F48 /* Info.plist */,
+			);
+			path = CustomDragUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC942F3E1BAAA6C200212F48 /* CustomDrag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC942F6C1BAAA6C200212F48 /* Build configuration list for PBXNativeTarget "CustomDrag" */;
+			buildPhases = (
+				DC942F3B1BAAA6C200212F48 /* Sources */,
+				DC942F3C1BAAA6C200212F48 /* Frameworks */,
+				DC942F3D1BAAA6C200212F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomDrag;
+			productName = CustomDrag;
+			productReference = DC942F3F1BAAA6C200212F48 /* CustomDrag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC942F571BAAA6C200212F48 /* CustomDragTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC942F6F1BAAA6C200212F48 /* Build configuration list for PBXNativeTarget "CustomDragTests" */;
+			buildPhases = (
+				DC942F541BAAA6C200212F48 /* Sources */,
+				DC942F551BAAA6C200212F48 /* Frameworks */,
+				DC942F561BAAA6C200212F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC942F5A1BAAA6C200212F48 /* PBXTargetDependency */,
+			);
+			name = CustomDragTests;
+			productName = CustomDragTests;
+			productReference = DC942F581BAAA6C200212F48 /* CustomDragTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC942F621BAAA6C200212F48 /* CustomDragUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC942F721BAAA6C200212F48 /* Build configuration list for PBXNativeTarget "CustomDragUITests" */;
+			buildPhases = (
+				DC942F5F1BAAA6C200212F48 /* Sources */,
+				DC942F601BAAA6C200212F48 /* Frameworks */,
+				DC942F611BAAA6C200212F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC942F651BAAA6C200212F48 /* PBXTargetDependency */,
+			);
+			name = CustomDragUITests;
+			productName = CustomDragUITests;
+			productReference = DC942F631BAAA6C200212F48 /* CustomDragUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC942F371BAAA6C200212F48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Adinnet;
+				TargetAttributes = {
+					DC942F3E1BAAA6C200212F48 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DC942F571BAAA6C200212F48 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DC942F3E1BAAA6C200212F48;
+					};
+					DC942F621BAAA6C200212F48 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DC942F3E1BAAA6C200212F48;
+					};
+				};
+			};
+			buildConfigurationList = DC942F3A1BAAA6C200212F48 /* Build configuration list for PBXProject "CustomDrag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC942F361BAAA6C200212F48;
+			productRefGroup = DC942F401BAAA6C200212F48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC942F3E1BAAA6C200212F48 /* CustomDrag */,
+				DC942F571BAAA6C200212F48 /* CustomDragTests */,
+				DC942F621BAAA6C200212F48 /* CustomDragUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC942F3D1BAAA6C200212F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC942F521BAAA6C200212F48 /* LaunchScreen.storyboard in Resources */,
+				DC942F4F1BAAA6C200212F48 /* Assets.xcassets in Resources */,
+				DC942F4D1BAAA6C200212F48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC942F561BAAA6C200212F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC942F611BAAA6C200212F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC942F3B1BAAA6C200212F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC942F7A1BAAA74C00212F48 /* CustomItem.m in Sources */,
+				DC942F4A1BAAA6C200212F48 /* ViewController.m in Sources */,
+				DC942F471BAAA6C200212F48 /* AppDelegate.m in Sources */,
+				DC942F441BAAA6C200212F48 /* main.m in Sources */,
+				DC942F771BAAA73300212F48 /* CustomDragView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC942F541BAAA6C200212F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC942F5D1BAAA6C200212F48 /* CustomDragTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC942F5F1BAAA6C200212F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC942F681BAAA6C200212F48 /* CustomDragUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC942F5A1BAAA6C200212F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC942F3E1BAAA6C200212F48 /* CustomDrag */;
+			targetProxy = DC942F591BAAA6C200212F48 /* PBXContainerItemProxy */;
+		};
+		DC942F651BAAA6C200212F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC942F3E1BAAA6C200212F48 /* CustomDrag */;
+			targetProxy = DC942F641BAAA6C200212F48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC942F4B1BAAA6C200212F48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC942F4C1BAAA6C200212F48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC942F501BAAA6C200212F48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC942F511BAAA6C200212F48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC942F6A1BAAA6C200212F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC942F6B1BAAA6C200212F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC942F6D1BAAA6C200212F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomDrag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wddev.CustomDrag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC942F6E1BAAA6C200212F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomDrag/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wddev.CustomDrag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC942F701BAAA6C200212F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomDragTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wddev.CustomDragTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomDrag.app/CustomDrag";
+			};
+			name = Debug;
+		};
+		DC942F711BAAA6C200212F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomDragTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wddev.CustomDragTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomDrag.app/CustomDrag";
+			};
+			name = Release;
+		};
+		DC942F731BAAA6C200212F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomDragUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wddev.CustomDragUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomDrag;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DC942F741BAAA6C200212F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomDragUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wddev.CustomDragUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomDrag;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC942F3A1BAAA6C200212F48 /* Build configuration list for PBXProject "CustomDrag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC942F6A1BAAA6C200212F48 /* Debug */,
+				DC942F6B1BAAA6C200212F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC942F6C1BAAA6C200212F48 /* Build configuration list for PBXNativeTarget "CustomDrag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC942F6D1BAAA6C200212F48 /* Debug */,
+				DC942F6E1BAAA6C200212F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC942F6F1BAAA6C200212F48 /* Build configuration list for PBXNativeTarget "CustomDragTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC942F701BAAA6C200212F48 /* Debug */,
+				DC942F711BAAA6C200212F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC942F721BAAA6C200212F48 /* Build configuration list for PBXNativeTarget "CustomDragUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC942F731BAAA6C200212F48 /* Debug */,
+				DC942F741BAAA6C200212F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC942F371BAAA6C200212F48 /* Project object */;
+}
