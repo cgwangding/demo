@@ -468,8 +468,7 @@
     [self configImages];
 }
 
-- (void)setTitleArr:(NSArray *)titleArr
-{
+- (void)setTitleArr:(NSArray<NSString *> *)titleArr{
     _titleArr = [titleArr copy];
     for (id obj in titleArr) {
         [self objectTypeCheck:obj];

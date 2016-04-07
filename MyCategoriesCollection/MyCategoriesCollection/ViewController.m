@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "NSString+AES.h"
 #import "UIImage+QRCode.h"
+#import "UIImage+ColorCircle.h"
 
 @interface ViewController ()
 
@@ -33,14 +34,20 @@
 //    NSLog(@"decrypt = %@",de);
     
     UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(10, 30, 200, 200)];
-    imageView.image = [UIImage createQRCodeWithString:@"http://www.baidu.com" size:CGSizeMake(200, 200) withIconImage:[UIImage imageNamed:@"qq"] iconSize:CGSizeMake(40, 40)] ;
-    imageView.image = [UIImage createQRCodeWithString:@"http://www.baidu.com" size:CGSizeMake(200, 200) color:[UIColor redColor] withIconImage:[UIImage imageNamed:@"qq"] iconSize:CGSizeMake(40, 40)];
+//    imageView.image = [UIImage createQRCodeWithString:@"http://www.baidu.com" size:CGSizeMake(200, 200) withIconImage:[UIImage imageNamed:@"qq"] iconSize:CGSizeMake(40, 40)] ;
+//    imageView.image = [UIImage createQRCodeWithString:@"http://www.baidu.com" size:CGSizeMake(200, 200) color:[UIColor redColor] withIconImage:[UIImage imageNamed:@"qq"] iconSize:CGSizeMake(40, 40)];
+    
+    imageView.image = [[UIImage imageNamed:@"qq"] imageWithInsideCircleColor:[UIColor redColor] outSideCircleColor:[UIColor greenColor] andSize:CGSizeMake(100, 100)];
+    imageView.contentMode = UIViewContentModeScaleAspectFit;
+    
     imageView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:imageView];
     
 //    UIImageView *centerImg = [[UIImageView alloc]initWithFrame:CGRectMake(100 - 20, 100 - 20 , 40, 40)];
 //    centerImg.backgroundColor = [UIColor redColor];
 //    [imageView addSubview:centerImg];
+    
+    
     
 }
 

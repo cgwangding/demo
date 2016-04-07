@@ -41,6 +41,7 @@
 		DC74C7ED1C910D8000B7EF02 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC74C7EC1C910D8000B7EF02 /* CoreLocation.framework */; };
 		DC74C7F01C910E2600B7EF02 /* NSString+FormmatDate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC74C7EF1C910E2600B7EF02 /* NSString+FormmatDate.m */; };
 		DC74C7F31C91514300B7EF02 /* UIImage+QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = DC74C7F21C91514300B7EF02 /* UIImage+QRCode.m */; };
+		DCC392341CB4DAA4009C48D1 /* UIImage+ColorCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC392331CB4DAA4009C48D1 /* UIImage+ColorCircle.m */; };
 		DCCEC5881C92956000878A3B /* qq.png in Resources */ = {isa = PBXBuildFile; fileRef = DCCEC5871C92956000878A3B /* qq.png */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +111,8 @@
 		DC74C7EF1C910E2600B7EF02 /* NSString+FormmatDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FormmatDate.m"; sourceTree = "<group>"; };
 		DC74C7F11C91514300B7EF02 /* UIImage+QRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRCode.h"; sourceTree = "<group>"; };
 		DC74C7F21C91514300B7EF02 /* UIImage+QRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRCode.m"; sourceTree = "<group>"; };
+		DCC392321CB4DAA4009C48D1 /* UIImage+ColorCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorCircle.h"; sourceTree = "<group>"; };
+		DCC392331CB4DAA4009C48D1 /* UIImage+ColorCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorCircle.m"; sourceTree = "<group>"; };
 		DCCEC5871C92956000878A3B /* qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qq.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -304,6 +307,8 @@
 				DC7369B61C90024D006A7D40 /* UIImage+ImageFromColor.m */,
 				DC74C7F11C91514300B7EF02 /* UIImage+QRCode.h */,
 				DC74C7F21C91514300B7EF02 /* UIImage+QRCode.m */,
+				DCC392321CB4DAA4009C48D1 /* UIImage+ColorCircle.h */,
+				DCC392331CB4DAA4009C48D1 /* UIImage+ColorCircle.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -436,6 +441,7 @@
 				DC7369D11C90024D006A7D40 /* UIColor+Extension.m in Sources */,
 				DC7369CE1C90024D006A7D40 /* NSURL+MediaDuration.m in Sources */,
 				DC7369771C90022C006A7D40 /* main.m in Sources */,
+				DCC392341CB4DAA4009C48D1 /* UIImage+ColorCircle.m in Sources */,
 				DC7369CC1C90024D006A7D40 /* NSString+MD5.m in Sources */,
 				DC7369CF1C90024D006A7D40 /* UIApplication+EnablePush.m in Sources */,
 				DC74C7F01C910E2600B7EF02 /* NSString+FormmatDate.m in Sources */,
